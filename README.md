@@ -31,6 +31,15 @@ It runs on **Windows** and **macOS**, and talks to a bundled local agent server,
 - 🎨 **Aurora design** — a cohesive Idexal dark theme: glass surfaces, an animated composer border, gradient accents, and a living backdrop.
 - 📦 **Professional installer** — a branded setup wizard (welcome → license → install location → finish).
 
+
+## CLI install (macOS / Linux / WSL)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/idexal/idexal-code/main/install | bash
+```
+
+This downloads the prebuilt `idexal` binary for your platform from the latest release and adds it to your PATH. Windows users: download the desktop installer below, or run the command above in WSL/Git-Bash.
+
 ## Download & install
 
 <img src="installer.png" width="150" align="right" alt="Idexal Code installer" />
@@ -39,10 +48,10 @@ Grab the latest build from the [**Releases**](https://github.com/idexal/idexal-c
 
 | Platform | File |
 |---|---|
-| **Windows** (64-bit) | `Idexal-Code-Setup-<version>-x64.exe` |
-| **Windows** (32-bit) | `Idexal-Code-Setup-<version>-ia32.exe` |
-| **macOS** (Apple Silicon) | `Idexal-Code-<version>-arm64.dmg` |
-| **macOS** (Intel) | `Idexal-Code-<version>-x64.dmg` |
+| **Windows** (64-bit) | `idexal-desktop-win-x64.exe` |
+| **macOS** (Apple Silicon) | `idexal-desktop-mac-arm64.dmg` |
+| **macOS** (Intel) | `idexal-desktop-mac-x64.dmg` |
+| **Linux** | `idexal-desktop-linux-x86_64.AppImage` · `.deb` · `.rpm` |
 
 **Windows:** run the installer and follow the wizard. **macOS:** open the `.dmg` and drag Idexal Code to Applications (on first launch, right-click → Open). The app **updates itself automatically** when a new release is published here.
 
